@@ -4,7 +4,6 @@ Feature: User story 13
   Scenario: User story 13, Test Case 01, User should be able to view Position Categories page
     Given user navigate to basqar
     And   user loggin to basqar
-
     When  user navigate to Position Categories page
 
 
