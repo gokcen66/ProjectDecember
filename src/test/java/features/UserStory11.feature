@@ -1,3 +1,4 @@
+@Regression @Smoke
 Feature: Notation Keys functionality
 
   Scenario: User story 11, Test Case 01, User should be able to create new Notation Keys
