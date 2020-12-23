@@ -51,7 +51,8 @@ public interface Locators {
     By HumainResources = By.xpath("//span[text()='Human Resources']");
     By DismissalArticles = By.xpath("//span[text()='Dismissal Articles']");
 
-    // Notation Locaters     By NotationInputName = By.cssSelector("input[name='name']");
+    // Notation Locaters
+      By NotationInputName = By.cssSelector("input[name='name']");
        By NotationInputShortName = By.cssSelector("input[name='shortName']");
        By NotationInputMultiplier = By.cssSelector("input[name='multiplier']");
        By DialogContainerButtonApply = By.cssSelector("mat-dialog-actions button");
