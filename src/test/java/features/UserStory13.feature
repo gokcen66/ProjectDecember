@@ -1,4 +1,4 @@
-Feature: User story 13
+Feature: User story 13,
 
 
   Scenario: User story 13, Test Case 01, User should be able to view Position Categories page
