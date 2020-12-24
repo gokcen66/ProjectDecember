@@ -59,4 +59,7 @@ public interface Locators {
     // locations Locators
     By LocationsInputCapacity = By.cssSelector("ms-text-field[formcontrolname='capacity']>input");
     By LocationType =By.xpath("(//mat-select[@role='combobox'])[3]");
+    By PageSearchInputName = By.cssSelector("ms-text-field[placeholder='GENERAL.FIELD.NAME']>input");
+    By PageSearchInputName2 = By.cssSelector("input[data-placeholder='Name']");
+
 }
