@@ -32,6 +32,7 @@ Feature: User Story 08, User should be able to use Item Categories Page function
     And     user navigate to Item Category page
     When    user edit the table data named as "IC Name"
     Then    search by name as "IC Name" should be listed
+    And     user close the dialogbox
 
 
   Scenario: User story 08, Test Case 03, User should be able to delete Item Categorie
