@@ -41,13 +41,9 @@ public class UserStory12Steps extends ParentClass {
     }
 
     @When("^user search Attestations name \"([^\"]*)\"$")
-    public void userSearchAttestationsName(String name) throws InterruptedException {
-
-        By searchInput=By.cssSelector("input[id='ms-text-field-0']");
-        $(searchInput).setValue(name);
+    public void userSearchAttestationsName(String name) {
+        $(PageSearchInputName).setValue(name);
         $(PageButtonSearch).click();
-        //Thread.sleep(3000);
-
 
     }
 
