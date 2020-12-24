@@ -43,7 +43,7 @@ public class UserStory07Steps extends ParentClass {
 
     @When("^user edit the table data named as \"([^\"]*)\"$")
     public void userEditTheTheDataNamedAs(String searchText)  {
-        editTableData(searchText);
+        clickToButtonInTable(TableButtonEdit, searchText);
     }
 
     @When("^user delete the table data name as \"([^\"]*)\"$")
@@ -52,7 +52,7 @@ public class UserStory07Steps extends ParentClass {
     }
 
     @Then("^the data should be edited$")
-    public void shouldBeEdited(String name) {
+    public void shouldBeEdited() {
         $(PageButtonSave).shouldBe(Condition.appear);
     }
 }
