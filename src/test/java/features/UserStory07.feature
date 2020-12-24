@@ -1,6 +1,7 @@
 @Regression
 Feature: User Story 07, User should be able to use Notifications Page functionality (Messaging)
 
+  @Smoke
   Scenario: User story 07, Test Case 01, User should be able to view Notifications Page
     Given   user navigate to basqar
     When    user loggin to basqar
