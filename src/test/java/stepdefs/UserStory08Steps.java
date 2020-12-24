@@ -2,6 +2,7 @@ package stepdefs;
 
 import cucumber.api.DataTable;
 import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageModels.NavMenu;
@@ -31,5 +32,10 @@ public class UserStory08Steps extends ParentClass {
         $(PageSearchInputName).setValue(searchText);
         $(PageButtonSearch).click();
 
+    }
+
+    @And("^user close the dialogbox$")
+    public void userCloseTheDialogbox() {
+        clickToDialogButton(Buttons.Close);
     }
 }
